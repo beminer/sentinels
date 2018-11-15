@@ -6,6 +6,7 @@ One click install Sentinel for Innova, Gobyte, Vivo masternode on Linux system.
 How to install?
 
 Download needed file in your OS to HOME USER folder with 'wget'.
+
 Example:
 	wget https://github.com/beminer/sentinels/blob/master/sentinel_for_innova
 
