@@ -11,10 +11,12 @@ Example:
 	wget https://github.com/beminer/sentinels/blob/master/sentinel_for_innova
 
 Get a privileges - chmod +x 'file'.
+
 Example:
 	chmod +x sentinel_for_innova
 
 Run file.
+
 Example:
 	./sentinel_for_innova
 
