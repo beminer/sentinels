@@ -1,7 +1,7 @@
 # Sentinels
 Sentinel for different Masternodes
 ----------------------------------
-One click install Sentinel for Innova, Gobyte, Vivo masternode on Linux system.
+One click install Sentinel for Innova, Gobyte, Vivo, PAC, Polis masternode on Linux system.
 
 How to install?
 

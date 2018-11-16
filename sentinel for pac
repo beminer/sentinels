@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo apt-get update
+sudo apt-get install virtualenv python-virtualenv -y
+git clone https://github.com/innovacoin/sentinel.git && cd sentinel
+virtualenv ./venv && ./venv/bin/pip install -r requirements.txt
+sudo chown -R $USER:$USER ~/
+echo "paccoin_conf=/home/$USER/.paccoincore/paccoin.conf" >> sentinel.conf
+crontab -l | { cat; echo "* * * * * cd /home/$USER/sentinel && ./venv/bin/python bin/sentinel.py > /dev/null 2>&1"; } | crontab -
