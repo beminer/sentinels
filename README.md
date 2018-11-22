@@ -4,20 +4,24 @@ Sentinel for different Masternodes
 One click install Sentinel for Innova, Gobyte, Vivo, PAC, Polis masternode on Linux system.
 
 How to install?
+_______________
 
-Download needed file in your OS to HOME USER folder with 'wget'.
+Update your repositores:
 
-Example:
-	wget https://github.com/beminer/sentinels/blob/master/sentinel_for_innova
+sudo apt-get update && sudo apt-get upgrade
 
-Get a privileges - chmod +x 'file'.
+Install GIT on your system:
 
-Example:
-	chmod +x sentinel_for_innova
+sudo apt-get install git
 
-Run file.
+Clone GIT:
 
-Example:
-	./sentinel_for_innova
+git clone https://github.com/beminer/sentinels.git && cd sentinels
+sudo chmod +x sentinel_for_*
+
+Run sentinel_for_NEEDED COIN, example for Polis:
+
+./sentinel_for_polis
+
 
 After 15-20 min your masternode status change to ENABLED
