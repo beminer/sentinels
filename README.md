@@ -17,6 +17,7 @@ sudo apt-get install git
 Clone GIT:
 
 git clone https://github.com/beminer/sentinels.git && cd sentinels
+
 sudo chmod +x sentinel_for_*
 
 Run sentinel_for_NEEDED COIN, example for Polis:
