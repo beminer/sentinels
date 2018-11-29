@@ -2,7 +2,7 @@
 cd ~/
 sudo apt-get update
 sudo apt-get install virtualenv python-virtualenv -y
-git clone https://github.com/innovacoin/sentinel.git
+git clone https://github.com/vivocoin/sentinel.git
 cd ~/sentinel
 virtualenv ./venv
 ./venv/bin/pip install -r requirements.txt
